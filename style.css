@@ -1,0 +1,96 @@
+h1 {
+	text-align: center;
+}
+
+fieldset {
+	border-radius: 5px;
+}
+
+input[type=text], select {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=date], select {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+.button {
+	width: 100%;
+	font-weight: bold;
+	background-color: Aquamarine;
+	border: none;
+	color: DarkSlateGray;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+	margin: 4px 0px;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+.button:hover {
+	background-color: Turquoise;
+}
+
+.buttonhalf {
+	width: 49.647%;
+	font-weight: bold;
+	background-color: DarkSeaGreen;
+	border: none;
+	color: DarkSlateGray;
+	padding: 12px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	margin: 4px 0px;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+.buttonhalf:hover {
+	color: white;
+	background-color: DarkSlateGray;
+}
+
+div.background {
+  width:1000px;
+  height:1000px;
+  background:url(businessphoto.jpeg);
+}
+
+div.box {
+  width:30%;
+  height:90%;
+  margin:10px 35%;
+  background-color:#ffffff;
+  padding:10px;
+}
+
+b {
+  font-size:20px;
+  text-align:center;
+}
+
+table {
+   font-size:18px;
+   margin-top:10px;
+}
+
+input::after[form="price"]{
+    content: "&euro;";
+}

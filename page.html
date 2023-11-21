@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<title>БИЗНЕС КАЛКУЛАТОР</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+
+</head>
+<body>
+
+<div class="background">
+	<div class="box">
+		<form name="f">
+		<h1>БИЗНЕС КАЛКУЛАТОР</h1>
+		
+		<table>
+			<tbody id="add">
+			
+			<fieldset>
+			<legend>Месец 1</legend>
+				<input type="date" name="month">
+				<input name="income" type="text" step="0.01" min="0.0" placeholder="Приход:">
+				<input name="expense" type="text" step="0.01" min="0.0" placeholder="Разход:">
+			</fieldset>
+			
+			</tbody>
+		</table>
+		
+		<input class="button" align="center" type="button" value="Добави още 1 месец" onclick="addMoreOneMonth()">
+		
+		<input class="buttonhalf" type="button" value="Изчисляване на данък" onclick="calcTax()">
+		<input class="buttonhalf" type="button" value="Изчисляване на печалба" onclick="calcProfit()">
+		
+		<br><br>
+		
+		<fieldset>
+		<legend>Данък/Печалба:</legend>
+			<div class="tax">Общ данък:</div>
+			<div class="profit">Обща печалба:</div>
+		</fieldset>
+		
+		</form>
+	</div>
+</div>
+
+</body>
+</html>
